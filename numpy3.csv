@@ -1,0 +1,26 @@
+question,option1,option2,option3,option4,correct_answer
+"What will be the output of the following code: `np.random.randint(1, 10, size=3)`?",A list of 3 random integers between 1 and 9,A list of 3 random integers between 1 and 10,A list of 3 floats between 1 and 10,A single integer between 1 and 9,A list of 3 random integers between 1 and 9
+Fill in the blank to generate an array of 5 random floats between 0 and 1: `arr = np.random.__________(5)`,randn,rand,random_sample,randint,rand
+"What does the following code return: `np.random.permutation([1, 2, 3, 4])`?",A fixed list,A sorted list,A shuffled list,A list of unique elements,A shuffled list
+"What is the purpose of the 'loc' parameter in `np.random.normal(loc=0, scale=1, size=10)`?",Set mean value,Set standard deviation,Define array size,Specify median value,Set mean value
+"Fill in the blank: To generate a 2x3 matrix with random values from the uniform distribution, use `np.random.________(low=1, high=5, size=(2, 3))`",uniform,normal,poisson,binomial,uniform
+Which of the following statements generates a single sample from a binomial distribution?,`np.random.poisson(10)`,`np.random.uniform()`,"`np.random.binomial(10, 0.5)`",`np.random.logistic()`,"`np.random.binomial(10, 0.5)`"
+"What will be the output type of `np.random.choice([1, 2, 3, 4], size=2, replace=False)`?",A single integer,A NumPy array,Python list,None,A NumPy array
+"In the following code `np.random.seed(42); np.random.randint(1, 10, 3)`, what does `np.random.seed(42)` achieve?",Sets a random limit,Randomizes outputs,Fixes randomness for reproducibility,Increases randomness,Fixes randomness for reproducibility
+"What is the range of values produced by `np.random.uniform(5, 10, 3)`?",Between 0 and 5,Between 0 and 10,Between 5 and 10,Between -5 and 5,Between 5 and 10
+"Given the code `arr = np.random.randn(3, 3)`, what is the characteristic of the generated values?",Normally distributed with mean=1,Numerically equal to 1,Normally distributed with mean=0,Uniform distribution,Naturally distributed with mean=0
+"Fill in the blank: `np.random.__________(5, p=[0.1, 0.3, 0.4, 0.2])` generates weighted random selections.",rand,choice,permutation,randn,choice
+"What will be printed by the following code? `np.random.choice([1, 2, 3], size=3, replace=False)`",Three elements randomly sampled without repetition,Three elements randomly sampled with repetition,A single integer,None,Three elements randomly sampled without repetition
+Which of these Seaborn functions is used to visualize the distribution of a dataset as a histogram?,lineplot(),scatterplot(),histplot(),pairplot(),histplot()
+"Fill in the blank: To generate a sample from an exponential distribution, use `np.random.__________(scale=1.0, size=5)`",exponential,normal,uniform,poisson,exponential
+"What does the parameter `df` in `np.random.chisquare(df=5, size=2)` specify?",Mean,Degrees of freedom,Scale factor,Number of bins,Degrees of freedom
+"Fill in the blank: To sample from a logistic distribution, use `np.random.__________(loc=0.0, scale=1.0)`",binomial,normal,logistic,uniform,logistic
+"What distribution is simulated using `np.random.pareto(a=3, size=10)`?",Poisson distribution,Log-normal distribution,Pareto distribution,Chi-square distribution,Pareto distribution
+"What will `np.random.multinomial(5, [0.2, 0.3, 0.5])` return?",A list of 5 normal samples,An array summing to 5 with weighted probabilities,A permutation of 5 values,None,An array summing to 5 with weighted probabilities
+Which distribution is ideal for counting the number of events over a fixed period of time?,Normal,Uniform,Poisson,Binomial,Poisson
+"What is the output shape of the code `np.random.normal(size=(2, 3))`?","`(3,2)`","`(1,2)`","`(2,3)`","` (3,3)`","`(2,3)`"
+What is the difference between np.random.randn() and np.random.normal()?,"randn has scale, normal does not",andn has fixed loc and scale,normal generates only integers,randn generates only floats,randn has fixed loc and scale
+"In Seaborn, which parameter allows adjusting the number of bins in a histogram?",hue,stat,bins,xlim,bins
+Which distribution is commonly used in survival analysis and reliability engineering?,Rayleigh distribution,Chi-square distribution,Exponential distribution,Log-normal distribution,Exponential distribution
+"What will be the output of `np.random.zipf(a=2, size=5)`?",Poisson-like values,Large integers,Small integers,None,Large integers
+"Fill in the blank: To shuffle elements of an array without altering the original, use `np.random.__________(arr)`",permutation,shuffle,choice,randn,permutation

@@ -1,0 +1,16 @@
+question,option1,option2,option3,option4,correct_answer
+"What does NumPy stand for?",Numerical Python,Number Processing,Numeric Program,Numerical Programming,Numerical Python
+"Which of the following is the correct way to import NumPy with its standard alias?",import numpy,import numpy as np,import numpy as num,"from numpy import *",import numpy as np
+"What is the primary data structure used in NumPy?",Series,DataFrame,ndarray,Tensor,ndarray
+"Which function is used to create a NumPy array?",array_create(),np.array(),create_array(),np.list(),np.array()
+"What will arr[2] return if arr = np.array([5, 10, 15, 20, 25])?",5,10,15,20,15
+"Which slicing operation will select the elements [10, 15, 20] from arr = np.array([5, 10, 15, 20, 25])?",arr[1:4],arr[0:3],arr[1:3],arr[2:5],arr[1:4]
+"Which method is used to get the shape of a NumPy array?",shape(),arr.size,arr.shape,get_shape(),arr.shape
+"What does np.reshape(arr, (2, 3)) do?",Flattens the array,"Changes the array’s shape to 2 rows and 3 columns",Converts the array to 1D,Splits the array into parts,"Changes the array’s shape to 2 rows and 3 columns"
+"Which function combines arrays along a specified axis?",np.split(),np.combine(),np.join(),np.concatenate(),np.concatenate()
+"How can you sort elements of a NumPy array in ascending order?",np.arrange(),arr.sort(),np.order(),arr.arrange(),arr.sort()
+"What does np.copy() return?","A view of the original array","A deep copy of the original array","The original array itself","None of the above","A deep copy of the original array"
+"Which function generates a random permutation of an array?",np.random.shuffle(),np.random.permutation(),np.random.random(),np.random.choice(),np.random.permutation()
+"Which method is used to search for an element in a NumPy array?",find(),np.loc(),np.where(),np.search(),np.where()
+"Which function can create an array with evenly spaced numbers between two values?",np.linspace(),np.arange(),np.range(),np.space(),np.arange()
+"What will np.random.randint(1, 10, 5) return?","An array of 5 random integers between 1 and 10 (inclusive)","An array of 5 random floating-point numbers between 1 and 10","An array of 10 random integers between 1 and 5","None of the above","An array of 5 random integers between 1 and 10 (inclusive)"

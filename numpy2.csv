@@ -1,0 +1,26 @@
+question,option1,option2,option3,option4,correct_answer
+What function generates random integers in a given range in NumPy?,np.random.random,np.random.randint,np.random.choice,np.random.permutation,np.random.randint
+Which of the following creates an array of random floats between 0 and 1?,np.random.random(5),np.random.randint(5),np.random.rand(5),"`np.random.choice([0, 1])`",np.random.random(5)
+Which function shuffles the elements of a NumPy array in place?,np.random.shuffle(),np.random.permutation(),np.random.choice(),np.random.shuffle(),np.random.shuffle()
+Which function returns a random permutation of an array?,np.random.permutation(),np.random.shuffle(),np.random.choice(),np.random.randn(),np.random.permutation()
+Which library is commonly used to visualize distributions in Python?,Matplotlib,Pandas,Seaborn,Scikit-learn,Seaborn
+Which Seaborn function plots a normal distribution?,barplot(),distplot(),histplot(),kdeplot(),distplot()
+Which function generates samples from a normal distribution in NumPy?,np.random.normal(),np.random.uniform(),np.random.binomial(),np.random.logistic(),np.random.normal()
+Which parameter of np.random.normal() sets the standard deviation?,mean,size,loc,scale,scale
+What is the primary difference between permutation and shuffle in NumPy?,permutation changes original,shuffle is deterministic,permutation keeps original intact,shuffle returns a new array,permutation keeps original intact
+Which function generates samples from a binomial distribution in NumPy?,np.random.normal(),np.random.uniform(),np.random.binomial(),np.random.poisson(),np.random.binomial()
+What does the np.random.poisson() function model?,Uniform distribution,Exponential events,Discrete events,Gaussian distribution,Exponential events
+Which of these distributions is characterized by equal probability for all outcomes?,Normal distribution,Poisson distribution,Uniform distribution,Binomial distribution,Uniform distribution
+Which function generates samples from a uniform distribution in NumPy?,np.random.uniform(),np.random.normal(),np.random.exponential(),np.random.poisson(),np.random.uniform()
+What is the purpose of np.random.logistic()?,Generates logistic distribution samples,Generates uniform distribution samples,Generates binomial events,Generates chi-square samples,Generates logistic distribution samples
+Which function generates samples from a multinomial distribution?,np.random.multinomial(),np.random.logistic(),np.random.normal(),np.random.uniform(),np.random.multinomial()
+"In the exponential distribution, what does the scale parameter represent?",Variance,Mean,Standard deviation,Rate parameter,Rate parameter
+Which function generates samples from a chi-square distribution?,np.random.chi_square(),np.random.chisquare(),np.random.poisson(),np.random.normal(),np.random.chisquare()
+What does np.random.rayleigh() simulate?,Logistic events,Normal distribution,Chi-square distribution,Rayleigh distribution,Rayleigh distribution
+What type of distribution does Pareto follow?,Exponential distribution,Binomial distribution,Poisson distribution,Pareto distribution,Pareto distribution
+Which function generates samples from a Zipf distribution?,np.random.zipf(),np.random.exponential(),np.random.rayleigh(),np.random.normal(),np.random.zipf()
+What does the 'k' parameter represent in np.random.zipf()?,Number of samples,Exponential decay,Shape parameter,Mean,Shape parameter
+Which function plots a kernel density estimation in Seaborn?,histplot(),distplot(),kdeplot(),scatterplot(),kdeplot()
+What distribution does np.random.poisson() relate to?,Discrete normal events,Bernoulli events,Binomial events,Exponential events,Exponential events
+Which of the following generates samples from a log-normal distribution?,np.random.poisson(),np.random.normal(),np.random.lognormal(),np.random.uniform(),np.random.lognormal()
+In which scenario is the binomial distribution ideal?,Modeling Gaussian data,Counting rare events,Modeling binary outcomes,Simulating random walks,Modeling binary outcomes
